@@ -3,7 +3,7 @@ import express from 'express';
 var SearchHistory = require ('../models/searchHistory');
  
 // import Search from 'bing.search';
-var Bing = require('node-bing-api')({ accKey: "935474f86b854fb289856b8ab5dec3b5" });
+var Bing = require('node-bing-api')({ accKey: 'APIKEY' });
 
 
 export const searchApi = express.Router();
